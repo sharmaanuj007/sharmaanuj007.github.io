@@ -1,0 +1,28 @@
+<div id="slideshow">
+  <div>
+    <img src="https://images.unsplash.com/photo-1535222848455-143cd6d890fa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b6bb84326a210ab4a66b9dc470cb177f&auto=format&fit=crop&w=750&q=80">
+  </div>
+  <div>
+    <img src="https://images.unsplash.com/photo-1527236627986-8c546b0c2635?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=76e76de4d07725d4b593bedd95382473&auto=format&fit=crop&w=753&q=80">
+  </div>
+  <div>
+    <img src="https://images.unsplash.com/photo-1523265987393-d988d7d777d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8bbc76448aa70f0cb47fe5b4a313bae0&auto=format&fit=crop&w=750&q=80">
+  </div>
+</div>
+</div>
+//for Slideshow
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+

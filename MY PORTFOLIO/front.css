@@ -1,0 +1,403 @@
+body {
+      font: 14px 'Merriweather', serif;
+      line-height: 1.8;
+    
+
+  }
+  p {
+    font-size: 20px;
+
+  }
+    .bg-1 { 
+      background: url(https://images.unsplash.com/photo-1520717214176-885c3b3b6ca5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f5a96b923860892d697b3b30c461c21b&auto=format&fit=crop&w=334&q=80);
+      background-size: cover;
+      background-repeat: no-repeat; 
+    }
+  .bg-2 { 
+      background-color: #F7F9F9;
+      background-size: cover;
+      text-align: center;
+      font-weight: 200;
+      padding-left: 400px;
+      /*background: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=962fdbcc8d5031658056ef47fded4b7b&auto=format&fit=crop&w=750&q=80);*/
+  }
+   .bg-2 .fa-3x {
+    font-size: 3em;
+    text-align: middle;
+    /*padding-left: 75%;*/
+  }
+  .lead {
+    font-weight: 200;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 25px;
+    }
+  /* Project begin here*/
+  .bg-3 { 
+      /*background: url(https://images.unsplash.com/photo-1523472260234-7c6ac7733ae0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1ba1c6dcc40c0e78238142f36830846f&auto=format&fit=crop&w=772&q=80);*/
+      
+      background: #f2f2f5;
+        
+  }
+  #Projects {
+      padding: 50px 15px;
+      border-bottom: 1px solid #dcd9d9;
+      text-align: center;
+  }
+  .row
+  {
+      margin-left: -15px;
+      margin-right: -15px;
+  }
+  .project {
+      position: relative;
+      max-width: 900px;
+      margin: 0 auto 30px auto;
+      overflow: hidden;
+      background: #fff;
+      border-radius: 4px;
+    }
+  .shadow-large {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.8),0 3px 6px rgba(0,0,0,0.15);
+  }
+  .project-image {
+    float: left;
+    display: block;
+  }  
+  .project-image img {
+  vertical-align: middle;
+  border: 0 ;
+  width: 50%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+
+  }
+  .project-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
+    padding: 15px;
+  }
+  .project-info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 15px 0;
+    text-align: center;
+  }
+  .project-info p {
+    color: #636363;
+    margin: 0 0 15px 0;
+    font-size: 0.5em;
+  }
+
+  /* Projects ends here*/
+
+
+  /*.bg-5 {
+      background-color: #DAF7A6;
+  }*/
+    
+  /*  About Me */ 
+  .bg-5 {
+      background: url(https://images.unsplash.com/photo-1465070845512-2b2dbdc6df66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a5a77f7badb57d710a18f672c494d65&auto=format&fit=crop&w=334&q=80);
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: none;
+      background-position: center center;
+  }
+  .bg-6 {
+      background-color: white;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: none;
+
+  }
+
+  .name  {
+    color: white;
+    font-size: 21px;
+  }
+  #dp {
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    margin-top: -40px;
+    border: 3px solid #fff;
+  }
+  img {
+    vertical-align: middle;
+  }
+                              /* RESUME CSS*/
+  .bg-7 {
+      background: url(https://images.unsplash.com/photo-1485288734756-0b31a0a31d95?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b2f369f46f24cbcc6c9bf8dde83b59c&auto=format&fit=crop&w=1500&q=80);
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  /*Headings*/
+  .vert-text {
+    color: #374054;
+    margin-bottom: 50px;
+    vertical-align: middle;
+    text-align: center;
+    opacity: .9;
+  }
+
+  /*Heading CSS Ends*/
+
+  .btn-special {
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    border-radius: 50px;
+    width: 100px;
+  }
+  .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .btn-default {
+    border-color: #ccc;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+    white-space: nowrap;
+    user-select: none;
+  }
+
+
+
+                            /* RESUME CSS ENDS HERE*/
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  
+  .bg-1 h1 {
+    margin-top: 20px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }
+
+  .fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+}
+
+  .fab : hover {
+    opacity: 0.7;
+}
+
+  .img-responsive 
+  {
+    border-radius: 50%;
+  }
+  
+
+  /* SCROLL TO TOP BUTTON*/
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#resize {
+    width: 100px;
+    height: 100px;
+}
+.list-inline li {
+  display: inline-block;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: -40px;
+}
+.fab {
+  color: #fff;
+  font-size: 3.5em; 
+  /*opacity: .4;*/
+}
+.fab:hover {
+  color: rgb(172,177,177);
+}
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */   /*padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    right: 0;
+    padding-top: 25px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    border-radius: 20px
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    right: 0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#menu-toggle {
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+  border-radius: 10px;  
+}
+.toggle {
+  margin: 5px 5px 0 0;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+}
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+}
+#main {
+  background-color: black;
+}
+#hamburger {
+  color: #fff;
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 25px;
+}
+
+/*footer*/
+.bg-footer {
+  background-color: White;
+}
+.bg-footer p {
+  font-weight: 200;
+  color: #374054;
+}
+/*footer ends*/
+
+/*reads css start here*/
+
+.thought-1 {
+  background: url(https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=633ccc6c4be196233e3f1938e160f858&auto=format&fit=crop&w=750&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ #tho {
+  color: #fff;
+ } 
+
+.back-to-top {
+  width: 5.5rem;
+  background-color: #000 !important;
+}
+
+.back-to-top:hover {
+  background-color: #a9a9a9 !important;
+  color: #000 !important;
+  border-right: 2px #696969 solid !important;
+  border-bottom: 2px #696969 solid !important;
+}
+
+ .readlists {
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.9;
+  opacity: 0.8;
+  text-align: center;
+  padding-left: -33px;
+ }
+ .col-md-offset-1 p {
+  font-size: 16px;
+ }
+ hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+  box-sizing: content-box;
+  height: 0;
+  max-width: 800px;
+ }
+
+ #Games {
+  padding-top: 20px;
+ }
+ #waste {
+  margin-top: -20px;
+ }
+
+
+
