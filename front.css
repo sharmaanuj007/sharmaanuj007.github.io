@@ -101,22 +101,6 @@ body {
       background-color: #DAF7A6;
   }*/
     
-  /*  About Me */ 
-  .bg-5 {
-      background: url(https://images.unsplash.com/photo-1465070845512-2b2dbdc6df66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a5a77f7badb57d710a18f672c494d65&auto=format&fit=crop&w=334&q=80);
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: none;
-      background-position: center center;
-  }
-  .bg-6 {
-      background-color: white;
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: none;
-
-  }
-
   .name  {
     color: white;
     font-size: 21px;
