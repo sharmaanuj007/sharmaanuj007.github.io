@@ -32,75 +32,9 @@ body {
     text-align: center;
     margin-top: 25px;
     }
-  /* Project begin here*/
-  .bg-3 { 
-      /*background: url(https://images.unsplash.com/photo-1523472260234-7c6ac7733ae0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1ba1c6dcc40c0e78238142f36830846f&auto=format&fit=crop&w=772&q=80);*/
-      
-      background: #f2f2f5;
-        
-  }
-  #Projects {
-      padding: 50px 15px;
-      border-bottom: 1px solid #dcd9d9;
-      text-align: center;
-  }
-  .row
-  {
-      margin-left: -15px;
-      margin-right: -15px;
-  }
-  .project {
-      position: relative;
-      max-width: 900px;
-      margin: 0 auto 30px auto;
-      overflow: hidden;
-      background: #fff;
-      border-radius: 4px;
-    }
-  .shadow-large {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.8),0 3px 6px rgba(0,0,0,0.15);
-  }
-  .project-image {
-    float: left;
-    display: block;
-  }  
-  .project-image img {
-  vertical-align: middle;
-  border: 0 ;
-  width: 50%;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  float: left;
-
-  }
-  .project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 300px;
-    padding: 15px;
-  }
-  .project-info h3 {
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #374054;
-    margin: 0 0 15px 0;
-    text-align: center;
-  }
-  .project-info p {
-    color: #636363;
-    margin: 0 0 15px 0;
-    font-size: 0.5em;
-  }
-
-  /* Projects ends here*/
-
-
-  /*.bg-5 {
-      background-color: #DAF7A6;
-  }*/
-    
+  
+  
+  
   .name  {
     color: white;
     font-size: 21px;
