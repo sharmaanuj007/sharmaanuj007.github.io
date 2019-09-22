@@ -26,6 +26,22 @@ body {
     text-align: middle;
     /*padding-left: 75%;*/
   }
+
+    .bg-3 {
+      background-color: #F7F9F9;
+      background-size: cover;
+      text-align: center;
+      font-weight: 200;
+      padding-left: 400px;
+    }
+
+    .bg-3 .fa-3x {
+    font-size: 3em;
+    text-align: middle;
+
+    }
+
+
   .lead {
     font-weight: 200;
     text-decoration: none;
