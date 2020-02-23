@@ -334,18 +334,8 @@ body {
  }
 
 /*Skills starts from hers*/
+
 #Skills ul {
-    list-style-type: none;
-  
+   list-style: none;
+
 }
-/*#Skills li {
-
-  display: inline-block;
-  margin: 8px;
-  padding: 5px 10px;
-  color: #374054;
-  background: #e4e4ea;
-  list-style: none;
-  cursor: default;
-}*/
-
