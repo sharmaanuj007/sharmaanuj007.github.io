@@ -350,4 +350,8 @@ body {
   list-style: none;
   cursor: default;
 }
+li {
 
+  box-sizing: border-box;
+  text-align: -webkit-font-smoothing;
+}
