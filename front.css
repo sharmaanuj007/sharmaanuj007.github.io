@@ -336,12 +336,9 @@ body {
 /*Skills starts from hers*/
 #Skills ul {
     list-style-type: none;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 900px;
+  
 }
-#Skills li {
+/*#Skills li {
 
   display: inline-block;
   margin: 8px;
@@ -350,5 +347,5 @@ body {
   background: #e4e4ea;
   list-style: none;
   cursor: default;
-}
+}*/
 
