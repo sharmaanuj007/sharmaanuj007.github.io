@@ -22,11 +22,12 @@ body {
       /*background: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=962fdbcc8d5031658056ef47fded4b7b&auto=format&fit=crop&w=750&q=80);*/
   }*/
     .bg-2 {
-      background: url(https://images.unsplash.com/photo-1485288734756-0b31a0a31d95?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b2f369f46f24cbcc6c9bf8dde83b59c&auto=format&fit=crop&w=1500&q=80);
-      background-attachment: fixed;
+      background-color: #F7F9F9;
       background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
+      text-align: center;
+      font-weight: 200;
+      padding-left: 400px;
+
   }
 
    .bg-2 .fa-3x {
