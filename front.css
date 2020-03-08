@@ -30,24 +30,15 @@ body {
 
   }
 
-   .bg-2 .fa-3x {
-    font-size: 3em;
-    text-align: middle;
-    /*padding-left: 75%;*/
-  }
-
-    .bg-3 {
+    /*.bg-3 {
       background-color: #F7F9F9;
       background-size: cover;
       text-align: center;
       font-weight: 200;
       padding-left: 400px;
-    }
+    }*/
 
-    .bg-3 .fa-3x {
-    font-size: 3em;
-    text-align: middle;
-
+   
     }
 
     .bg-4 {
@@ -357,7 +348,4 @@ body {
 #Skills ul {
    list-style: none;
 
-}
-#Skills {
-  text-align: center;
 }
