@@ -1,0 +1,25 @@
+{
+  "name": "sharmaanuj007.github.io",
+  "version": "1.0.0",
+  "description": "This is Anuj Sharma official portfoilio",
+  "main": "index.html",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmaanuj007/sharmaanuj007.github.io.git"
+  },
+  "author": "Anuj Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharmaanuj007/sharmaanuj007.github.io/issues"
+  },
+  "homepage": "https://github.com/sharmaanuj007/sharmaanuj007.github.io#readme"
+}
