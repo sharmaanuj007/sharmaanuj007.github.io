@@ -43,14 +43,10 @@ body {
 }
 
 p {
-    font-size: 20px;
-
-  }
+    font-size: 20px; }
+  
     .bg-1 { 
-      background: url(https://images.unsplash.com/photo-1520717214176-885c3b3b6ca5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f5a96b923860892d697b3b30c461c21b&auto=format&fit=crop&w=334&q=80);
-      /*background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;*/
+      background: url(firstback.jpg);
       top: 0;
       bottom: 0;
       left: 0;
@@ -58,18 +54,8 @@ p {
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: center center;
-      background-size: cover;
+      background-size: cover; };
 
-
-    }
-  /*.bg-2 { 
-      background-color: #F7F9F9;
-      background-size: cover;
-      text-align: center;
-      font-weight: 200;
-      padding-left: 400px;
-      /*background: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=962fdbcc8d5031658056ef47fded4b7b&auto=format&fit=crop&w=750&q=80);*/
-  }*/
     .bg-2 {
       background-color: #F7F9F9;
       background-size: cover;
@@ -84,24 +70,23 @@ p {
   }
 
   .pro1 {
+        display: flex;
+        align-items: center;  
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto 30px auto;
+        overflow: hidden;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.8); }
 
-    display: flex;
-    align-items: center;  
-    text-align: center;
-    max-width: 900px;
-    margin: 0 auto 30px auto;
-    overflow: hidden;
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.8);
-}
 
-.pro1-image {
-
-  overflow: hidden;
-  max-height: 300px;
-  flex: 1.2;
-}
+      .pro1-image {
+        overflow: hidden;
+        max-height: 300px;
+        flex: 1.2; }
+    
+  
 
 img{
   vertical-align: middle;
@@ -174,27 +159,13 @@ img{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-   
-    }
-
-    .bg-4 {
-      background-color: #F7F9F9;
-      background-size: cover;
-      text-align: center;
-      font-weight: 200;
-      
-
-    }
+ .bg-4 
+ {
+   background-color: #F7F9F9;
+   background-size: cover;
+   text-align: center;
+   font-weight: 200;
+ }
 
 
 
@@ -294,7 +265,7 @@ img{
   margin: 4px 2px;
 }
 
-  .fab : hover {
+  .fab:hover {
     opacity: 0.7;
 }
 
@@ -402,7 +373,6 @@ img{
 #menu-toggle {
   top: 0;
   right: 0;
-  position: fixed;
   z-index: 1;
   color: #fff;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
@@ -410,7 +380,7 @@ img{
 }
 .toggle {
   margin: 5px 5px 0 0;
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.6)
 }
 .btn-lg {
   padding: 10px 16px;
@@ -496,9 +466,8 @@ img{
    padding: 15px 20px;
    margin: 9px;
    background: #e4e4ea;
-   color: #37054;
    display: inline-block;
-   border: 1px solid;   
+   border : 1px solid;   
    border-radius: 20px;
 
 }
