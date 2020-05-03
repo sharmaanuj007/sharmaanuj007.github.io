@@ -40,6 +40,7 @@ function openNav() {
 /* Set the width of the side navigation to 0 */
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    
 }
 
 // to disable right click from webpage 
