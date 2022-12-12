@@ -4,7 +4,7 @@
   "description": "This is Anuj Sharma official portfoilio",
   "main": "index.html",
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lite-server": "^2.5.4"
   },
   "scripts": {
